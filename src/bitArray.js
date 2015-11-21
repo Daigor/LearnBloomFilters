@@ -75,7 +75,7 @@ BitArray.prototype.toggle = function(idx) {
   //Use calculateIndex to determine the desired bitwise index.
   var index = this.calculateIndex(idx);
 
-  //Use generateMask to get the desired mask for bitwise manipulation.
+  //Use generateMask to get the desired mask forgit a bitwise manipulation.
   var mask = this.generateMask(idx);
 
   //To toggle the desired bit, we do a bitwise XOR against the integer with
